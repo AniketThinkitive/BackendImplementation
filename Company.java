@@ -1,6 +1,6 @@
 class Employee {
-    int empid ;
-    String empName;
+  private  int empid ;
+    private String empName;
 
     public void setEmpInfo(int eid,String ename){
     empid=eid;

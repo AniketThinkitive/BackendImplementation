@@ -16,11 +16,19 @@ public class MethodOverloding {
 
     }
 
+    // void show(String a){
+    //     System.out.println("Method with String single parameters  ");
+
+    // }
+
     // void show(StringBuffer a){
     //     System.out.println("Method with String single parameters  ");
 
     // }
 
+
+
+    // spread operator
     void show(int... a){
         System.out.println("Vargs Method with String single parameters  ");
 
