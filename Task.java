@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Set;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -7,7 +8,7 @@ public class Task {
     public static void main(String[] args) {
         
 
-        Set<Integer> l=new HashSet()<Integer>();
+        Set<Integer> l=new HashSet<Integer>();
 
         l.add(1);
         l.add(2);
@@ -18,13 +19,13 @@ public class Task {
         l.add(2);
 
 
-        System.out.println("List elements : "+l);
+        System.out.println("Set elements : "+l);
 
-        ListIterator litr=l.listIterator();
-        while(litr.hasNext()){
-            System.out.println(litr.next());
+        // ListIterator litr=l.listIterator();
+        // while(litr.hasNext()){
+        //     System.out.println(litr.next());
 
-        }
+        // }
 
 
     }
