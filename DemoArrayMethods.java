@@ -32,6 +32,16 @@ public class DemoArrayMethods {
     // // int[] a1=new int[5];
     // int[] a1={1,2,3,4,5};
     // int[] a2=Arrays.copyOf(a1,a1.length);
+    //  int[] a3=a1.clone();
+
+
+
+        //cloning an array
+    //   for (int i : a3) {
+    //         System.out.println("a3 elements"+i);
+    //      }
+    
+
 
     // a2[2]=47;
 
@@ -105,9 +115,9 @@ public class DemoArrayMethods {
 
             //binarySearch()
 
-            int[] binSer={1,4,6,7,8,10,30,2,};
+            int[] binSer={1,4,6,7,8,10,30};
 
-            System.out.println(Arrays.binarySearch(binSer, 30));
+            System.out.println(Arrays.binarySearch(binSer,4 ));
 
 
 

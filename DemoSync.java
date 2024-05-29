@@ -45,9 +45,10 @@
 //    }  
    
 class BookTheraterSeat{
-
+//use static if want to use static sync
   int totalSeats=10;
   //scope of method is more 
+  //static sync -to use this we need static 
   synchronized void bookSeat(int seats){
 
 

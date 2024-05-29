@@ -8,7 +8,7 @@ class A{
 }
 
 class B extends A{
-    @Deprecated //tell not to use this 
+    @Deprecated //tells  not to use this 
     public void show(){
 
     }

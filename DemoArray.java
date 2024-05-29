@@ -50,6 +50,12 @@ public class DemoArray {
         //     System.out.println();
         // }
 
+            
+
+
+
+
+
 
         //3D array
 
